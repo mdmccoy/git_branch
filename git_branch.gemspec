@@ -6,12 +6,13 @@ require "git_branch/version"
 Gem::Specification.new do |spec|
   spec.name          = "git_branch"
   spec.version       = GitBranch::VERSION
-  spec.authors       = ["Matt"]
-  spec.email         = ["mmccoy@springbig.com"]
+  spec.authors       = ["Matt McCoy"]
+  spec.email         = ["mdmccoy@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A simple gem to expose your current environment and git branch.}
+  spec.description   = %q{Adds styles and a simple partial that you can place in your layout
+                          to highlight your environment and current git branch when in development.}
+  spec.homepage      = "https://github.com/mdmccoy/git_branch"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
