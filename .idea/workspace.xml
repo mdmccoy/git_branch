@@ -101,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/git_branch.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="615">
+              <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -267,12 +267,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541617878417</updated>
       <workItem from="1541617879584" duration="4120000" />
-      <workItem from="1541623162037" duration="3676000" />
+      <workItem from="1541623162037" duration="3740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7796000" />
+    <option name="totallyTimeSpent" value="7860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
@@ -351,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/git_branch.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="615">
+          <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
         </state>
       </provider>
     </entry>
