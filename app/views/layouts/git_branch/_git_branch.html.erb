@@ -1,0 +1,7 @@
+<div class="env <%= Rails.env %>">
+  <% if Rails.env.development? %>
+    <%= "env: <b>#{Rails.env}</b> | branch: <b>#{GitBranch.branch}</b>".html_safe %>
+  <% else %>
+    <%= "env: <b>#{Rails.env}</b>".html_safe %>
+  <% end %>
+</div>

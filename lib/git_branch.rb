@@ -1,5 +1,9 @@
 require "git_branch/version"
 
 module GitBranch
-  # Your code goes here...
+  class Engine < ::Rails::Engine; end
+
+  def self.branch
+    `git rev-parse --abbrev-ref HEAD`
+  end
 end
