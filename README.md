@@ -1,8 +1,6 @@
 # GitBranch
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/git_branch`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Git_branch is just a simple way to expose some information about your current environment, and if you're in development, your current git branch. It was a quality of life thing that I was encouraged to turn into a gem.
 
 ## Installation
 
@@ -22,7 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the CSS library to your application.css.scss (or wherever you require vendor stylesheets)
+
+     *= require git_branch
+     
+ You should then be able to use the partial wherever you want. I find it useful to put it on the application layout so that it's visible on every page.
+ 
+ ```ruby
+<%= render 'layouts/git_branch' %>
+```
+
+You may or may not want to include this information in production, it's up to you. Just wrap the render call in a conditional to control it's display.
+```ruby
+<%= render 'layouts/git_branch' unless Rails.env.production? %>
+```
 
 ## Development
 
@@ -32,7 +43,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/git_branch. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mdmccoy/git_branch. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+This gem is my first attempt at extracting code from a project, and setup for how I needed. Any tips for generalizing it and making it easier for others to use would be greatly appreciated.
 
 ## License
 
