@@ -1,4 +1,4 @@
-.env {
+#env {
     font-size: 0.8rem;
     padding: 0.3rem 0;
     position: fixed;
@@ -6,19 +6,19 @@
     font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
     text-align: center;
 }
-.env.development {
+#env.development {
     background-color: #b5b5b5;
     color: #333;
 }
-.env.alpha {
+#env.alpha {
     background-color: #ffe79c;
     color: #93730f;
 }
-.env.staging {
+#env.staging {
     background-color: #a4ffba;
     color: #187c30;
 }
-.env.production {
+#env.production {
     background-color: #a7dcff;
     color: #14679e;
 }
